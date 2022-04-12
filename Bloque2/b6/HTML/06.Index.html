@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ejercicios con Pseudoselectores</title>
+    <link rel="stylesheet" href="css/06.styles.css">
+</head>
+
+<body>
+    <table>
+        <caption><a href="#" target="_blank">HORARIO DE CLASE CURSO</a></caption>
+        <thead>
+            <tr>
+                <th colspan="aumento">HORAS</th>
+                <th colspan="aumento">Lunes</th>
+                <th colspan="aumento">Martes</th>
+                <th colspan="aumento">Miércoles</th>
+                <th colspan="aumento">Jueves</th>
+                <th colspan="aumento">Viernes</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td colspan="uno">8:00</td>
+                <td rowspan="2">Matemáticas</td>
+                <td>Lengua</td>
+                <td>Inglés</td>
+                <td colspan="2">Ciencias</td>
+            </tr>
+            <tr>
+                <td colspan="uno" >9:00</td>
+                <td>Historia</td>
+                <td>Ciencias</td>
+                <td>Matemáticas</td>
+                <td>Lengua</td>
+            </tr>
+            <tr>
+                <td colspan="uno">10:00</td>
+                <th colspan="5">RECREO</th>
+            </tr>
+            <tr>
+                <td colspan="uno">10:30</td>
+                <td>Inglés</td>
+                <td rowspan="2">Ciencias</td>
+                <td>Matemáticas</td>
+                <td>Lengua</td>
+                <td>Historia</td>
+            </tr>
+            <tr>
+                <td colspan="uno">11:30</td>
+                <td>Historia</td>
+                <td>Ciencias</td>
+                <td>Matemáticas</td>
+                <td>Inglés</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <form>
+        <p>
+            <label for="destino">Email</label><label for="obligatorio">*</label>
+            <input type="email" name="destino" placeholder="Inserte email del destinario" required />
+        </p>
+        <input type="button" value="Enviar Horario" />
+    </form>
+</body>
+
+</html>

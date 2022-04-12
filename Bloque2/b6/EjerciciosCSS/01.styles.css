@@ -1,0 +1,36 @@
+*{
+    font: 1em/1.3 Arial, Helvetica, sans-serif;
+
+} 
+
+
+p{
+    color: #555;
+
+}
+
+div[id="primero"] p{
+    color: #336699;
+}
+
+a:link{
+
+    color: #CC3300;
+}
+
+div[id="primero"] p>em{
+    background: #FFFFCC; padding: .1em;
+}
+
+* em[class="especial"]{
+    background: #FFCC99; border: 1px solid #FF9900; padding: .1em;
+}
+
+div[class="normal"] p > span {
+    font-weight: bold;
+
+}
+
+
+
+

@@ -1,0 +1,70 @@
+h1[id="titulo"]{
+    color:darkcyan;
+}
+
+p>strong{
+
+    color: red;
+}
+
+span[class="destacado"]{
+    color:gold;
+}
+
+h2[id="subtitulo"]{
+    color: blue;
+}
+
+a[href="#"]{
+    color: red;
+}
+
+a/*[href="#"]*/ > em{
+    color: blue;
+}
+
+span[class="especial"]{
+    color:purple
+}
+
+caption{
+    color: blue;
+}
+
+thead>tr>th[scope="col"]{
+    color: gold;
+}
+
+tfoot>tr>th[scope="col"]{
+    color:red
+
+}
+
+.especial{
+    color: gold;
+}
+
+.row{
+    color: red;
+}
+
+td>strong{
+    color:gold
+}
+
+tbody>tr>td{
+    color:green
+}
+
+
+span[id="especial"]{
+    color: violet;
+}
+
+a[href="otra"]{
+    color:green
+}
+
+div[id="adicional"]{
+    color:burlywood
+}

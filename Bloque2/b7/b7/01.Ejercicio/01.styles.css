@@ -1,0 +1,78 @@
+body {
+    
+    display: flex;
+    flex-direction: column;
+  }
+
+  
+
+
+.uno {
+    text-align: center;
+    border: 2px solid black;
+    position: absolute;
+	width: 210px;
+	height: 500px;
+    left: 100px;
+    right: 10px;
+    top: 100px;
+    bottom: 50px;
+	overflow:auto;
+	font-family:Arial;
+	font-size:0.8em;
+	
+}
+
+.dos{
+    text-align: center;
+    border: 2px solid black;
+    position: absolute;
+    width: 210px;
+	height: 500px;
+    left: 400px;
+    right: 10px;
+    top: 100px;
+    bottom: 50px;
+	overflow:auto;
+	font-family:Arial;
+	font-size:0.8em;
+	
+
+}
+
+.tres{
+    text-align: center;
+    border: 2px solid black;
+    position: absolute;
+    width: 210px;
+	height: 500px;
+    left: 700px;
+    right: 10px;
+    top: 100px;
+    bottom: 50px;
+    overflow:auto;
+	font-family:Arial;
+	font-size:0.8em;
+	
+
+}
+
+.cuatro{
+    text-align: center;
+    border: 2px solid black;
+    position: absolute;
+    width: 210px;
+	height: 500px;
+    left: 1000px;
+    right: 10px;
+    top: 100px;
+    bottom: 50px;
+   overflow:auto;
+	font-family:Arial;
+	font-size:0.8em;
+	
+
+
+}
+
+

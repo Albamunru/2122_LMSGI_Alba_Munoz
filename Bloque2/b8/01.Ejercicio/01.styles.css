@@ -1,0 +1,111 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.calendar{
+    width: 80%;
+    padding: 100px;
+    float: left;
+    box-sizing: border-box;
+   
+}
+
+
+
+li{
+    
+    list-style: none;
+}
+
+.calendar-title{
+    text-align: center;
+    font-size: 15mm;
+}
+
+.month{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(200px,1fr));
+}
+.month-title{
+
+    padding: 10px 8px;
+}
+.month-container{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    width: 200px;
+
+}
+.days-header{
+    background-color: grey;
+    display: grid;
+    grid-template-columns: repeat( 7,1fr);
+
+    font-weight: 700;
+    padding-bottom: 10px;
+
+}
+.day{
+    text-align: center;
+}
+
+.days-container{
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+}
+
+
+.first-day{
+    grid-column-start: 6;
+
+}
+
+.first-day2{
+    grid-column-start: 2;
+
+}
+
+.first-day3{
+    grid-column-start: 2;
+}
+
+.first-day4{
+    grid-column-start: 5 ;
+}
+.first-day5{
+    grid-column-start: 7 ;
+
+}
+.first-day6{
+    grid-column-start: 3 ;
+
+}
+
+.first-day7{
+    grid-column-start: 5 ;
+
+}
+.first-day8{
+    grid-column-start: 1 ;
+
+}
+
+.first-day9{
+    grid-column-start: 4;
+
+}
+
+.first-day10{
+    grid-column-start: 6;
+}
+
+.first-day11{
+    grid-column-start: 2;
+}
+.first-day12{
+    grid-column-start: 4 ;
+}

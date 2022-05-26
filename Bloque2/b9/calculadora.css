@@ -1,0 +1,101 @@
+*{
+   
+    box-sizing: border-box;
+    padding: 0;
+   
+}
+
+.centro{
+   
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.calculadora{
+    display: flex;
+    flex-direction: column;
+    border: 0,5px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    width: 400px;
+    
+}
+
+
+
+.botones{
+ border: 1px solid rgb(196, 190, 190) ;
+ display: grid;
+grid-template-columns: repeat(4, 1fr);
+grid-template-rows: repeat(5, 1fr);
+border: none ;
+line-height: 24px;
+height: 350px;
+
+
+
+}
+
+.igual{
+    background-color: #F9703E;
+    color: black;
+    font-size: 25px;
+    height: 280px;
+    border: none;
+    grid-column: 4 /span 1;
+    grid-row: 2 /span 4;
+    border-bottom-right-radius: 10px;
+    
+
+
+
+}
+ .todo{
+     border: 1px solid rgb(196, 190, 190) ;
+     background-color: rgb(179, 174, 174);
+     font-size: 25px;
+    }
+
+
+.resto{
+    border: 1px solid rgb(196, 190, 190) ;
+    color: black;
+    font-size: 25px;
+   
+}
+
+.cero{
+    border-bottom-left-radius: 10px;
+    border: 1px solid rgb(196, 190, 190) ; ;
+    color: black;
+    font-size: 25px;
+}
+
+
+.calculadora input{
+    border:none;
+    text-align: right;
+    font-size: 30px;
+    padding: 20px;
+    background-color: black;
+    color: white;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+}
+
+button:active{
+    background-color: #CBD2D9;
+}
+
+
+.degradado{
+    background: linear-gradient(236deg,#74ebd5, #acb6e5);
+
+
+}
+
+
+
